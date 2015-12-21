@@ -2,7 +2,7 @@
 //  RDAppDelegate.m
 //  RSSReader
 //
-//  Created by Sarath Bollepalli on 11/3/14.
+//  Created by Ramya Krishna on 11/3/14.
 //  Copyright (c) 2014 Ramya Krishna. All rights reserved.
 //
 
@@ -12,7 +12,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [Parse setApplicationId:@"jsbWute97AHnBnOSu5H8wjbFp2fFTEljSRR2PkX1"
+                  clientKey:@"t2XuFVA9wLfBnM389chI4I1DUXesS0Bni7nl4nGG"];
     return YES;
 }
 							
@@ -24,8 +25,7 @@
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+   
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
@@ -42,5 +42,8 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+
+
 
 @end

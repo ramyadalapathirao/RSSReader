@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30173D0B1A37795E00CB77FB /* RDFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 30173D0A1A37795E00CB77FB /* RDFeedParser.m */; };
+		30173D1B1A3A4F3800CB77FB /* back-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 30173D1A1A3A4F3800CB77FB /* back-arrow.png */; };
+		303848C61A3244BE008256DB /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 303848C51A3244BE008256DB /* Settings.bundle */; };
+		30A10BD11A27C4FA002D0A3E /* RDCustomLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A10BD01A27C4FA002D0A3E /* RDCustomLabel.m */; };
+		30A10BD31A27D096002D0A3E /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A10BD21A27D096002D0A3E /* Social.framework */; };
+		30A10BD51A29B58D002D0A3E /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A10BD41A29B58D002D0A3E /* libsqlite3.dylib */; };
+		30A10BD81A29B658002D0A3E /* RDDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A10BD71A29B658002D0A3E /* RDDatabaseManager.m */; };
 		30B0BD541A08A13000999482 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30B0BD531A08A13000999482 /* Foundation.framework */; };
 		30B0BD561A08A13000999482 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30B0BD551A08A13000999482 /* CoreGraphics.framework */; };
 		30B0BD581A08A13000999482 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30B0BD571A08A13000999482 /* UIKit.framework */; };
@@ -14,13 +21,33 @@
 		30B0BD601A08A13000999482 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B0BD5F1A08A13000999482 /* main.m */; };
 		30B0BD641A08A13000999482 /* RDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B0BD631A08A13000999482 /* RDAppDelegate.m */; };
 		30B0BD671A08A13000999482 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B0BD651A08A13000999482 /* Main.storyboard */; };
-		30B0BD6A1A08A13000999482 /* RDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B0BD691A08A13000999482 /* RDViewController.m */; };
 		30B0BD6C1A08A13000999482 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30B0BD6B1A08A13000999482 /* Images.xcassets */; };
 		30B0BD731A08A13000999482 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30B0BD721A08A13000999482 /* XCTest.framework */; };
 		30B0BD741A08A13000999482 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30B0BD531A08A13000999482 /* Foundation.framework */; };
 		30B0BD751A08A13000999482 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30B0BD571A08A13000999482 /* UIKit.framework */; };
 		30B0BD7D1A08A13000999482 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30B0BD7B1A08A13000999482 /* InfoPlist.strings */; };
 		30B0BD7F1A08A13000999482 /* RSSReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B0BD7E1A08A13000999482 /* RSSReaderTests.m */; };
+		30B0BD8A1A08A19300999482 /* RDSubscriptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B0BD891A08A19300999482 /* RDSubscriptionsViewController.m */; };
+		30B0BD8D1A08A49400999482 /* RDCategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B0BD8C1A08A49400999482 /* RDCategoriesViewController.m */; };
+		30B0BD901A08A4D600999482 /* RDCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B0BD8F1A08A4D600999482 /* RDCategoryCell.m */; };
+		30BAFDEE1A19BB3F004041E6 /* RDFeedsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BAFDED1A19BB3F004041E6 /* RDFeedsViewController.m */; };
+		30BAFDF01A19C25B004041E6 /* transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 30BAFDEF1A19C25B004041E6 /* transparent.png */; };
+		30C6C80E1A2072C3004AA673 /* RDRSSItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C6C80D1A2072C3004AA673 /* RDRSSItem.m */; };
+		30C6C8111A2072FC004AA673 /* RDRSSItemsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C6C8101A2072FC004AA673 /* RDRSSItemsTableViewController.m */; };
+		30C6C8141A207A90004AA673 /* RDWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C6C8131A207A90004AA673 /* RDWebViewController.m */; };
+		30C6C8171A22A6F6004AA673 /* RDAutoDiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C6C8161A22A6F6004AA673 /* RDAutoDiscoveryViewController.m */; };
+		30E13F361A318E5800B15F21 /* customicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 30E13F351A318E5800B15F21 /* customicon.png */; };
+		30FF702E1A1886DB00030F67 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FF702A1A1886DB00030F67 /* Bolts.framework */; };
+		30FF702F1A1886DB00030F67 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FF702B1A1886DB00030F67 /* Parse.framework */; };
+		30FF70331A18890900030F67 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FF70321A18890900030F67 /* AudioToolbox.framework */; };
+		30FF70351A18891600030F67 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FF70341A18891600030F67 /* CFNetwork.framework */; };
+		30FF70371A18893A00030F67 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FF70361A18893A00030F67 /* CoreLocation.framework */; };
+		30FF70391A18894800030F67 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FF70381A18894800030F67 /* libz.dylib */; };
+		30FF703B1A18895600030F67 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FF703A1A18895600030F67 /* MobileCoreServices.framework */; };
+		30FF703D1A18896400030F67 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FF703C1A18896400030F67 /* QuartzCore.framework */; };
+		30FF703F1A18897100030F67 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FF703E1A18897100030F67 /* Security.framework */; };
+		30FF70411A18897D00030F67 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FF70401A18897D00030F67 /* StoreKit.framework */; };
+		30FF70431A18898D00030F67 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FF70421A18898D00030F67 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +61,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30173D091A37795E00CB77FB /* RDFeedParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDFeedParser.h; sourceTree = "<group>"; };
+		30173D0A1A37795E00CB77FB /* RDFeedParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDFeedParser.m; sourceTree = "<group>"; };
+		30173D1A1A3A4F3800CB77FB /* back-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-arrow.png"; sourceTree = "<group>"; };
+		303848C51A3244BE008256DB /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		30A10BCF1A27C4FA002D0A3E /* RDCustomLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDCustomLabel.h; sourceTree = "<group>"; };
+		30A10BD01A27C4FA002D0A3E /* RDCustomLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDCustomLabel.m; sourceTree = "<group>"; };
+		30A10BD21A27D096002D0A3E /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		30A10BD41A29B58D002D0A3E /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		30A10BD61A29B658002D0A3E /* RDDatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDDatabaseManager.h; sourceTree = "<group>"; };
+		30A10BD71A29B658002D0A3E /* RDDatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDDatabaseManager.m; sourceTree = "<group>"; };
 		30B0BD501A08A13000999482 /* RSSReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30B0BD531A08A13000999482 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		30B0BD551A08A13000999482 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +82,41 @@
 		30B0BD621A08A13000999482 /* RDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDAppDelegate.h; sourceTree = "<group>"; };
 		30B0BD631A08A13000999482 /* RDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDAppDelegate.m; sourceTree = "<group>"; };
 		30B0BD661A08A13000999482 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		30B0BD681A08A13000999482 /* RDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDViewController.h; sourceTree = "<group>"; };
-		30B0BD691A08A13000999482 /* RDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDViewController.m; sourceTree = "<group>"; };
 		30B0BD6B1A08A13000999482 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		30B0BD711A08A13000999482 /* RSSReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSSReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30B0BD721A08A13000999482 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		30B0BD7A1A08A13000999482 /* RSSReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RSSReaderTests-Info.plist"; sourceTree = "<group>"; };
 		30B0BD7C1A08A13000999482 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		30B0BD7E1A08A13000999482 /* RSSReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSSReaderTests.m; sourceTree = "<group>"; };
+		30B0BD881A08A19300999482 /* RDSubscriptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDSubscriptionsViewController.h; sourceTree = "<group>"; };
+		30B0BD891A08A19300999482 /* RDSubscriptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDSubscriptionsViewController.m; sourceTree = "<group>"; };
+		30B0BD8B1A08A49400999482 /* RDCategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDCategoriesViewController.h; sourceTree = "<group>"; };
+		30B0BD8C1A08A49400999482 /* RDCategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDCategoriesViewController.m; sourceTree = "<group>"; };
+		30B0BD8E1A08A4D600999482 /* RDCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDCategoryCell.h; sourceTree = "<group>"; };
+		30B0BD8F1A08A4D600999482 /* RDCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDCategoryCell.m; sourceTree = "<group>"; };
+		30BAFDEC1A19BB3F004041E6 /* RDFeedsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDFeedsViewController.h; sourceTree = "<group>"; };
+		30BAFDED1A19BB3F004041E6 /* RDFeedsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDFeedsViewController.m; sourceTree = "<group>"; };
+		30BAFDEF1A19C25B004041E6 /* transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transparent.png; sourceTree = "<group>"; };
+		30C6C80C1A2072C3004AA673 /* RDRSSItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDRSSItem.h; sourceTree = "<group>"; };
+		30C6C80D1A2072C3004AA673 /* RDRSSItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDRSSItem.m; sourceTree = "<group>"; };
+		30C6C80F1A2072FC004AA673 /* RDRSSItemsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDRSSItemsTableViewController.h; sourceTree = "<group>"; };
+		30C6C8101A2072FC004AA673 /* RDRSSItemsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDRSSItemsTableViewController.m; sourceTree = "<group>"; };
+		30C6C8121A207A90004AA673 /* RDWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDWebViewController.h; sourceTree = "<group>"; };
+		30C6C8131A207A90004AA673 /* RDWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDWebViewController.m; sourceTree = "<group>"; };
+		30C6C8151A22A6F6004AA673 /* RDAutoDiscoveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDAutoDiscoveryViewController.h; sourceTree = "<group>"; };
+		30C6C8161A22A6F6004AA673 /* RDAutoDiscoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDAutoDiscoveryViewController.m; sourceTree = "<group>"; };
+		30E13F351A318E5800B15F21 /* customicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = customicon.png; sourceTree = "<group>"; };
+		30FF702A1A1886DB00030F67 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		30FF702B1A1886DB00030F67 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		30FF70321A18890900030F67 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		30FF70341A18891600030F67 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		30FF70361A18893A00030F67 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		30FF70381A18894800030F67 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		30FF703A1A18895600030F67 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		30FF703C1A18896400030F67 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		30FF703E1A18897100030F67 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		30FF70401A18897D00030F67 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		30FF70421A18898D00030F67 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +124,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30A10BD51A29B58D002D0A3E /* libsqlite3.dylib in Frameworks */,
+				30A10BD31A27D096002D0A3E /* Social.framework in Frameworks */,
+				30FF70431A18898D00030F67 /* SystemConfiguration.framework in Frameworks */,
+				30FF70411A18897D00030F67 /* StoreKit.framework in Frameworks */,
+				30FF703F1A18897100030F67 /* Security.framework in Frameworks */,
+				30FF703D1A18896400030F67 /* QuartzCore.framework in Frameworks */,
+				30FF703B1A18895600030F67 /* MobileCoreServices.framework in Frameworks */,
+				30FF70391A18894800030F67 /* libz.dylib in Frameworks */,
+				30FF70371A18893A00030F67 /* CoreLocation.framework in Frameworks */,
+				30FF70351A18891600030F67 /* CFNetwork.framework in Frameworks */,
+				30FF70331A18890900030F67 /* AudioToolbox.framework in Frameworks */,
 				30B0BD561A08A13000999482 /* CoreGraphics.framework in Frameworks */,
 				30B0BD581A08A13000999482 /* UIKit.framework in Frameworks */,
 				30B0BD541A08A13000999482 /* Foundation.framework in Frameworks */,
+				30FF702E1A1886DB00030F67 /* Bolts.framework in Frameworks */,
+				30FF702F1A1886DB00030F67 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +178,18 @@
 		30B0BD521A08A13000999482 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				30A10BD41A29B58D002D0A3E /* libsqlite3.dylib */,
+				30A10BD21A27D096002D0A3E /* Social.framework */,
+				30FF70421A18898D00030F67 /* SystemConfiguration.framework */,
+				30FF70401A18897D00030F67 /* StoreKit.framework */,
+				30FF703E1A18897100030F67 /* Security.framework */,
+				30FF703C1A18896400030F67 /* QuartzCore.framework */,
+				30FF703A1A18895600030F67 /* MobileCoreServices.framework */,
+				30FF70381A18894800030F67 /* libz.dylib */,
+				30FF70361A18893A00030F67 /* CoreLocation.framework */,
+				30FF70341A18891600030F67 /* CFNetwork.framework */,
+				30FF70321A18890900030F67 /* AudioToolbox.framework */,
+				30FF70291A1886DB00030F67 /* parse-library-1.5.0 */,
 				30B0BD531A08A13000999482 /* Foundation.framework */,
 				30B0BD551A08A13000999482 /* CoreGraphics.framework */,
 				30B0BD571A08A13000999482 /* UIKit.framework */,
@@ -114,10 +203,31 @@
 			children = (
 				30B0BD621A08A13000999482 /* RDAppDelegate.h */,
 				30B0BD631A08A13000999482 /* RDAppDelegate.m */,
+				30B0BD881A08A19300999482 /* RDSubscriptionsViewController.h */,
+				30B0BD891A08A19300999482 /* RDSubscriptionsViewController.m */,
 				30B0BD651A08A13000999482 /* Main.storyboard */,
-				30B0BD681A08A13000999482 /* RDViewController.h */,
-				30B0BD691A08A13000999482 /* RDViewController.m */,
+				30A10BD61A29B658002D0A3E /* RDDatabaseManager.h */,
+				30A10BD71A29B658002D0A3E /* RDDatabaseManager.m */,
+				30A10BCF1A27C4FA002D0A3E /* RDCustomLabel.h */,
+				30A10BD01A27C4FA002D0A3E /* RDCustomLabel.m */,
+				30C6C8151A22A6F6004AA673 /* RDAutoDiscoveryViewController.h */,
+				30C6C8161A22A6F6004AA673 /* RDAutoDiscoveryViewController.m */,
+				30C6C8121A207A90004AA673 /* RDWebViewController.h */,
+				30C6C8131A207A90004AA673 /* RDWebViewController.m */,
+				30C6C80C1A2072C3004AA673 /* RDRSSItem.h */,
+				30C6C80D1A2072C3004AA673 /* RDRSSItem.m */,
+				30C6C80F1A2072FC004AA673 /* RDRSSItemsTableViewController.h */,
+				30C6C8101A2072FC004AA673 /* RDRSSItemsTableViewController.m */,
+				30173D091A37795E00CB77FB /* RDFeedParser.h */,
+				30173D0A1A37795E00CB77FB /* RDFeedParser.m */,
+				30B0BD8E1A08A4D600999482 /* RDCategoryCell.h */,
+				30B0BD8F1A08A4D600999482 /* RDCategoryCell.m */,
+				30B0BD8B1A08A49400999482 /* RDCategoriesViewController.h */,
+				30B0BD8C1A08A49400999482 /* RDCategoriesViewController.m */,
+				30BAFDEC1A19BB3F004041E6 /* RDFeedsViewController.h */,
+				30BAFDED1A19BB3F004041E6 /* RDFeedsViewController.m */,
 				30B0BD6B1A08A13000999482 /* Images.xcassets */,
+				30BAFDEF1A19C25B004041E6 /* transparent.png */,
 				30B0BD5A1A08A13000999482 /* Supporting Files */,
 			);
 			path = RSSReader;
@@ -126,10 +236,13 @@
 		30B0BD5A1A08A13000999482 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				30173D1A1A3A4F3800CB77FB /* back-arrow.png */,
+				30E13F351A318E5800B15F21 /* customicon.png */,
 				30B0BD5B1A08A13000999482 /* RSSReader-Info.plist */,
 				30B0BD5C1A08A13000999482 /* InfoPlist.strings */,
 				30B0BD5F1A08A13000999482 /* main.m */,
 				30B0BD611A08A13000999482 /* RSSReader-Prefix.pch */,
+				303848C51A3244BE008256DB /* Settings.bundle */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -150,6 +263,15 @@
 				30B0BD7B1A08A13000999482 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30FF70291A1886DB00030F67 /* parse-library-1.5.0 */ = {
+			isa = PBXGroup;
+			children = (
+				30FF702A1A1886DB00030F67 /* Bolts.framework */,
+				30FF702B1A1886DB00030F67 /* Parse.framework */,
+			);
+			path = "parse-library-1.5.0";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +351,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				303848C61A3244BE008256DB /* Settings.bundle in Resources */,
+				30173D1B1A3A4F3800CB77FB /* back-arrow.png in Resources */,
+				30BAFDF01A19C25B004041E6 /* transparent.png in Resources */,
 				30B0BD6C1A08A13000999482 /* Images.xcassets in Resources */,
 				30B0BD5E1A08A13000999482 /* InfoPlist.strings in Resources */,
 				30B0BD671A08A13000999482 /* Main.storyboard in Resources */,
+				30E13F361A318E5800B15F21 /* customicon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +376,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30C6C8171A22A6F6004AA673 /* RDAutoDiscoveryViewController.m in Sources */,
+				30C6C8111A2072FC004AA673 /* RDRSSItemsTableViewController.m in Sources */,
+				30C6C8141A207A90004AA673 /* RDWebViewController.m in Sources */,
+				30A10BD81A29B658002D0A3E /* RDDatabaseManager.m in Sources */,
+				30173D0B1A37795E00CB77FB /* RDFeedParser.m in Sources */,
+				30B0BD8A1A08A19300999482 /* RDSubscriptionsViewController.m in Sources */,
 				30B0BD641A08A13000999482 /* RDAppDelegate.m in Sources */,
+				30C6C80E1A2072C3004AA673 /* RDRSSItem.m in Sources */,
+				30BAFDEE1A19BB3F004041E6 /* RDFeedsViewController.m in Sources */,
+				30B0BD8D1A08A49400999482 /* RDCategoriesViewController.m in Sources */,
+				30B0BD901A08A4D600999482 /* RDCategoryCell.m in Sources */,
 				30B0BD601A08A13000999482 /* main.m in Sources */,
-				30B0BD6A1A08A13000999482 /* RDViewController.m in Sources */,
+				30A10BD11A27C4FA002D0A3E /* RDCustomLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +513,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/parse-library-1.5.0",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RSSReader/RSSReader-Prefix.pch";
 				INFOPLIST_FILE = "RSSReader/RSSReader-Info.plist";
@@ -390,6 +530,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/parse-library-1.5.0",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RSSReader/RSSReader-Prefix.pch";
 				INFOPLIST_FILE = "RSSReader/RSSReader-Info.plist";
@@ -457,6 +601,7 @@
 				30B0BD841A08A13000999482 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30B0BD851A08A13000999482 /* Build configuration list for PBXNativeTarget "RSSReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +610,7 @@
 				30B0BD871A08A13000999482 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

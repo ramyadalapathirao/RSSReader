@@ -1,5 +1,4 @@
 
-Red Id:818608616
 App Name:RSSReader
 
 
